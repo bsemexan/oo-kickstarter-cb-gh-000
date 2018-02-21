@@ -5,6 +5,6 @@ class Project
     @title = title
   end
 
-  def add_baker
+  def add_baker(@backed_projects)
   end
 end
