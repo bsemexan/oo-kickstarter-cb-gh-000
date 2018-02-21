@@ -5,7 +5,8 @@ class Backer
     @name = name
   end
 
-  def back_project
+  def back_project(@backers)
+    @backers = []
   end
 
 end
