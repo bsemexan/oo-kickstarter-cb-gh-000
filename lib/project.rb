@@ -5,7 +5,7 @@ class Project
     @title = title
   end
 
-  def add_baker(@backed_projects)
+  def add_baker(backed_projects)
     @backed_projects = []
   end
 end
