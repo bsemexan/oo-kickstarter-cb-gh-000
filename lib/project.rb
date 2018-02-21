@@ -6,5 +6,6 @@ class Project
   end
 
   def add_baker(@backed_projects)
+    @backed_projects = []
   end
 end
