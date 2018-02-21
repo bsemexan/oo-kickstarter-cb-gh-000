@@ -6,6 +6,6 @@ class Project
   end
 
   def add_backer(back_projects)
-    @backed_projects = []
+    @back_projects = []
   end
 end
