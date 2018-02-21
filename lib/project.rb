@@ -5,7 +5,7 @@ class Project
     @title = title
   end
 
-  def add_backer(backed_projects)
+  def add_backer(back_projects)
     @backed_projects = []
   end
 end
